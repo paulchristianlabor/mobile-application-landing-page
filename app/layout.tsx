@@ -2,11 +2,12 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "FlowTrack — Stay Organized. Stay Ahead.",
+  title: "Mobile Application — Stay Organized. Stay Ahead.",
   description:
     "The quiet productivity companion for driven professionals. Manage tasks, track progress, and stay in flow wherever you are.",
+  icons: { icon: '/favicon.png' },
   openGraph: {
-    title: "FlowTrack — Stay Organized. Stay Ahead.",
+    title: "Mobile Application — Stay Organized. Stay Ahead.",
     description:
       "The quiet productivity companion for driven professionals. Manage tasks, track progress, and stay in flow wherever you are.",
     images: ["/opengraph.jpg"],

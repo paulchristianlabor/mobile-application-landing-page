@@ -51,6 +51,7 @@ export function Footer() {
         <div className="mt-16 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
           <p className="text-background/50 text-sm">
             © {new Date().getFullYear()} Mobile Application Inc. All rights reserved.
+            {" · "} Design and Built by Paul Christian Labor
           </p>
           <div className="flex gap-4">
              <button className="flex items-center gap-2 bg-white/10 hover:bg-white/20 transition-colors px-4 py-2 rounded-lg text-sm font-medium">
