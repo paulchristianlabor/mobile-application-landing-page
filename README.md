@@ -1,6 +1,6 @@
-# FlowTrack — Mobile App Landing Page
+# Mobile Application — Mobile App Landing Page
 
-A fully static marketing landing page for the **FlowTrack** mobile productivity app. Built with Next.js, React, Tailwind CSS, and shadcn/ui.
+A fully static marketing landing page for the **Mobile Application** mobile productivity app. Built with Next.js, React, Tailwind CSS, and shadcn/ui.
 
 ---
 
@@ -43,52 +43,3 @@ A fully static marketing landing page for the **FlowTrack** mobile productivity 
 ├── postcss.config.mjs    # PostCSS + Tailwind v4
 └── tsconfig.json
 ```
-
----
-
-## Getting Started
-
-### Prerequisites
-
-- Node.js 20+
-- pnpm
-
-### Install dependencies
-
-```bash
-pnpm install
-```
-
-### Development
-
-```bash
-pnpm dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) in your browser.
-
-### Build (static export)
-
-```bash
-pnpm build
-```
-
-The static site is output to the `out/` directory, ready to be deployed on any static hosting service (GitHub Pages, Vercel, Netlify, Cloudflare Pages, etc.).
-
-### Preview production build locally
-
-```bash
-pnpm start
-```
-
----
-
-## Deployment
-
-Since `output: "export"` is set in `next.config.mjs`, running `pnpm build` produces a fully static site in the `out/` folder. Upload that directory to any static host.
-
----
-
-## License
-
-MIT
